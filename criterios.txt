@@ -3,5 +3,7 @@
 - Um leitor não pode ter mais de 3 livros emprestados ao
 mesmo tempo
 
+-O leitor não pode fazer empréstimo se tiver 3 empréstimos ativos
+
 -O prazo máximo de empréstimo é de 15 dias,
 aplicando-se uma multa diária de 0,5€ em caso de atraso;
