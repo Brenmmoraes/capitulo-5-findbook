@@ -1,0 +1,4 @@
+-Empréstimo rejeitado quando o exemplar não estiver disponível.
+-Empréstimo rejeitado se o leitor tiver multas pendentes
+-Empréstimo rejeitado se o leitor já tiver 3 empréstimos ativos. 
+
