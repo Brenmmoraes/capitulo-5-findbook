@@ -1,0 +1,7 @@
+- O empréstimo só pode avançar quando o exemplar está disponível
+
+- Um leitor não pode ter mais de 3 livros emprestados ao
+mesmo tempo
+
+-O prazo máximo de empréstimo é de 15 dias,
+aplicando-se uma multa diária de 0,5€ em caso de atraso;
