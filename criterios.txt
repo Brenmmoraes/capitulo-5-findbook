@@ -1,9 +1,17 @@
-- O empréstimo só pode avançar quando o exemplar está disponível
+--Critérios--
 
-- Um leitor não pode ter mais de 3 livros emprestados ao
-mesmo tempo
+- O sistema deve validar se o livro está marcado como "Disponível"
+antes de confirmar a reserva
 
--O leitor não pode fazer empréstimo se tiver 3 empréstimos ativos
+- O sistema deve validar se o leitor tem mais de 3 empréstimos ativos antes de fazer o empréstimo.
+
+- O sistema deve validar se o leitor tem multa ativa antes de fazer o empréstimo.
+
+-O sistema deve alterar o estado do livro para "Reservado"
+imediatamente após a confirmação da mesma.
+
+- O sistema deve enviar um email ao leitor com o comprovativo da
+reserva e a data limite para o levantamento do livro.
 
 -O prazo máximo de empréstimo é de 15 dias,
 aplicando-se uma multa diária de 0,5€ em caso de atraso;

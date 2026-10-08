@@ -1,4 +1,13 @@
--Empréstimo rejeitado quando o exemplar não estiver disponível.
--Empréstimo rejeitado se o leitor tiver multas pendentes
--Empréstimo rejeitado se o leitor já tiver 3 empréstimos ativos. 
+--Cenários--
+
+Caso válido: 
+-O sistema identifica que o leitor não possui empréstimos ativos e nem multas e que o exemplar está disponível e ACEITA o empréstimo. 
+
+Casos inválidos:
+-O sistema identifica que o leitor não possui empréstimos ativos/multas pendentes e que o exemplar NÃO está disponível e REJEITA o empréstimo. 
+
+-O sistema identifica que o leitor tem 3 empréstimos ativos/multas pendentes e o que o exemplar NÃO está disponível e REJEITA o empréstimo. 
+
+-O sistema identifica que o leitor tem 3 empréstimos ativos/multas pendentes e o que o exemplar está disponível e REJEITA o empréstimo. 
+
 
