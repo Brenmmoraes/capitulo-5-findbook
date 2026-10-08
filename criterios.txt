@@ -15,3 +15,10 @@ reserva e a data limite para o levantamento do livro.
 
 -O prazo máximo de empréstimo é de 15 dias,
 aplicando-se uma multa diária de 0,5€ em caso de atraso;
+
+
+Disponibilidade do exemplar:
+
+O exemplar só pode ser emprestado se estiver disponível e não tiver nenhum empréstimo ativo.
+
+Se o exemplar não estiver disponível, o sistema deve rejeitar o empréstimo e informar o leitor de que o exemplar está indisponível.
